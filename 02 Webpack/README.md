@@ -5,8 +5,9 @@
 First make the html file, which contains and input, a submit button and div for the ouputs, then make the main.js script. After making the main script which contains all the functions, split it into several scripts. This doesn't really make sense to do which such a simple app however later in the tutorial we will be making very large apps, where it does make a lot of sense to split them up into multiple files, which is where webpack comes in. Webpack is a opensource javascript module bundler, which packs many modules into a few bundled assets.
 
 <details>
-<summary>naive implementation</summary>
+<summary>code</summary>
 
+```js
 const hex_lookup = [
     "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f"
 ];
@@ -96,5 +97,6 @@ const click = () => {
 }
 
 conversion_button.addEventListener("click", click);
+```
 
 </details>
