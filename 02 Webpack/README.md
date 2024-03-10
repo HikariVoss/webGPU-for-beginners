@@ -96,4 +96,5 @@ First make the html file, which contains and input, a submit button and div for 
     }
 
     conversion_button.addEventListener("click", click);
+    ```
 </details>
