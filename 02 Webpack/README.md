@@ -7,6 +7,7 @@ First make the html file, which contains and input, a submit button and div for 
 <details>
 <summary>code</summary>
 
+### naive implementation
 ```js
 const hex_lookup = [
     "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f"
