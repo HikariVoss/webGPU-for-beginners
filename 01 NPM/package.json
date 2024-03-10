@@ -1,0 +1,17 @@
+{
+  "name": "01-npm",
+  "version": "1.0.0",
+  "description": "## Learning how to use Node package manager",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run install-dependencies && npm run serve",
+    "install-dependencies": "npm i",
+    "serve": "http-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
