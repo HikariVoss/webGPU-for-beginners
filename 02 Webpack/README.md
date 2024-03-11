@@ -112,8 +112,8 @@ After that do the following:
 2. add `"build": "webpack --config webpack.config.js"` in `"scripts"`
 3. in the root folder make a `webpack.config.js` file
 Inside the `webpack.config.js` file:
-```
-const path = require(path)
+```js
+const path = require("path")
 module.exports = {
     entry: "./src/hex-verter/main.js",
     output: {
@@ -122,3 +122,4 @@ module.exports = {
     }
 }
 ```
+I spent a while trying to get this too work, turns out I forgot quotations around path in `const path = require("path")`
