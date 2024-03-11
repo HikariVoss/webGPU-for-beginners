@@ -1,6 +1,6 @@
 import {hex_lookup} from "./library/constants/lookup-tables";
 import {dec_to_binary, binary_to_hex} from "./library/conversions";
-import { group_binary } from "./library/formatting";
+import {group_binary} from "./library/formatting";
 
 const decimal_input = document.getElementById("decimalInput");
 const conversion_button = document.getElementById("convert-button");
